@@ -1,0 +1,12 @@
+{
+  "name": "chromedriver-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
