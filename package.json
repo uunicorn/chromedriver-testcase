@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "test.js",
+  "scripts": {
+      "chromedriver-test": "node ./test.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
