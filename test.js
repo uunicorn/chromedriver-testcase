@@ -27,7 +27,7 @@ const main = async () => {
     //builder.loggingTo('chromedriver.log').enableVerboseLogging();
     const service = builder.build();
 
-    const options = new chrome.Options().setBinaryPath('google-chrome');
+    const options = new chrome.Options();
     const driver = chrome.Driver.createSession(options, service);
 
     try {
