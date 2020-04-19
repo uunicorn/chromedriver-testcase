@@ -1,10 +1,10 @@
 {
-  "name": "chromedriver-test",
+  "name": "chromedriver-testcase",
   "version": "1.0.0",
   "description": "",
   "main": "test.js",
-  "scripts": {
-      "chromedriver-test": "node ./test.js"
+  "bin": {
+      "chromedriver-testcase": "./test.js"
   },
   "author": "",
   "license": "ISC",
